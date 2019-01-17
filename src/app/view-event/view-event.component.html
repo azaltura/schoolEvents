@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;" >
+    <div class="card-body">
+      <h5 class="card-title">{{ event.name }}</h5>
+      <p class="card-text">{{event.desc}}</p>
+      <p class="card-text">{{ event.balance }}</p>
+      <p class="card-text">{{ project.dateEnd }}</p>
+    </div>
+    <button (click)='delete()'>Delete event</button>
+  </div>
